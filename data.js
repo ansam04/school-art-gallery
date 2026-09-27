@@ -1,0 +1,1190 @@
+// عدّلي هذا الملف لإدخال أسماء الفصول والغرف والأعمال.
+const GALLERY = {
+  "schoolName": "معرض المدرسة الفني الافتراضي",
+  "intro": "مرحبًا بكم في معرض المدرسة الفني. اختاروا الفصل ثم تنقلوا بين أربع قاعات افتراضية لعرض أعمال الطالبات.",
+  "classes": [
+    {
+      "name": "الفصل 1",
+      "rooms": [
+        {
+          "title": "الرسم والتلوين",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            }
+          ]
+        },
+        {
+          "title": "التصميم والوسائط",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            }
+          ]
+        },
+        {
+          "title": "المشاريع الإبداعية",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "الأعمال المميزة",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 2",
+      "rooms": [
+        {
+          "title": "الرسم والتلوين",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            }
+          ]
+        },
+        {
+          "title": "التصميم والوسائط",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "المشاريع الإبداعية",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            }
+          ]
+        },
+        {
+          "title": "الأعمال المميزة",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 3",
+      "rooms": [
+        {
+          "title": "الرسم والتلوين",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "التصميم والوسائط",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            }
+          ]
+        },
+        {
+          "title": "المشاريع الإبداعية",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            }
+          ]
+        },
+        {
+          "title": "الأعمال المميزة",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 4",
+      "rooms": [
+        {
+          "title": "الرسم والتلوين",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            }
+          ]
+        },
+        {
+          "title": "التصميم والوسائط",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            }
+          ]
+        },
+        {
+          "title": "المشاريع الإبداعية",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            }
+          ]
+        },
+        {
+          "title": "الأعمال المميزة",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 5",
+      "rooms": [
+        {
+          "title": "الرسم والتلوين",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            }
+          ]
+        },
+        {
+          "title": "التصميم والوسائط",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            }
+          ]
+        },
+        {
+          "title": "المشاريع الإبداعية",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            }
+          ]
+        },
+        {
+          "title": "الأعمال المميزة",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 6",
+      "rooms": [
+        {
+          "title": "الرسم والتلوين",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            }
+          ]
+        },
+        {
+          "title": "التصميم والوسائط",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            }
+          ]
+        },
+        {
+          "title": "المشاريع الإبداعية",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            }
+          ]
+        },
+        {
+          "title": "الأعمال المميزة",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 7",
+      "rooms": [
+        {
+          "title": "الرسم والتلوين",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            }
+          ]
+        },
+        {
+          "title": "التصميم والوسائط",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_2.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            }
+          ]
+        },
+        {
+          "title": "المشاريع الإبداعية",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_3.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            }
+          ]
+        },
+        {
+          "title": "الأعمال المميزة",
+          "artworks": [
+            {
+              "title": "عمل فني 1",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_4.jpg"
+            },
+            {
+              "title": "عمل فني 2",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_5.jpg"
+            },
+            {
+              "title": "عمل فني 3",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_6.jpg"
+            },
+            {
+              "title": "عمل فني 4",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_7.jpg"
+            },
+            {
+              "title": "عمل فني 5",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_8.jpg"
+            },
+            {
+              "title": "عمل فني 6",
+              "artist": "اسم الطالبة",
+              "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
+              "image": "assets/artworks/art_1.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};

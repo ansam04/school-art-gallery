@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>المعرض الفني الافتراضي</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Tahoma,sans-serif;background:#f4efe7;color:#222}
+main{min-height:100vh;display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;padding:48px 7vw}
+.logo{width:96px;height:96px;border-radius:50%;object-fit:cover;background:white;border:1px solid #ddd}
+h1{font-size:clamp(38px,6vw,72px);margin:18px 0 10px;line-height:1.05}
+p{font-size:19px;line-height:1.8;color:#5e5852}
+.panel{background:#ffffffcc;border:1px solid #ddd4c8;border-radius:24px;padding:24px;box-shadow:0 18px 50px #00000014}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{display:block;text-decoration:none;color:#222;background:white;border:1px solid #e3dbd0;border-radius:16px;padding:18px}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 22px #00000012}
+.card b{display:block;font-size:19px;margin-bottom:5px}.card span{font-size:13px;color:#746d66}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:26px 18px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<section>
+<img src="assets/branding/school_logo.png" class="logo" alt="شعار المدرسة">
+<h1 id="schoolName"></h1>
+<p id="intro"></p>
+<p style="font-size:13px">داخل المعرض: WASD للحركة، والماوس للنظر، واضغطي على اللوحة لعرض المعلومات.</p>
+</section>
+<section class="panel">
+<h2>اختاري الفصل</h2>
+<div id="classGrid" class="grid"></div>
+</section>
+</main>
+<script src="data.js"></script>
+<script>
+schoolName.textContent=GALLERY.schoolName; intro.textContent=GALLERY.intro;
+GALLERY.classes.forEach((c,i)=>{
+ const a=document.createElement("a"); a.className="card";
+ a.href=`gallery.html?class=${i+1}&room=1`;
+ a.innerHTML=`<b>${c.name}</b><span>4 قاعات افتراضية</span>`;
+ classGrid.appendChild(a);
+});
+</script>
+</body></html>
