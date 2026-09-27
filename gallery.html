@@ -32,8 +32,8 @@
 <a-box position="0 3 15" width="26" height="6" depth=".18" color="#F8F6F1"></a-box>
 
 <!-- central benches -->
-<a-box position="0 .38 -3.5" width="5.4" height=".76" depth="1.5" color="#BDB7AE"></a-box>
-<a-box position="0 .38 4.5" width="5.4" height=".76" depth="1.5" color="#BDB7AE"></a-box>
+<a-box position="0 .38 -3.5" width="5.4" height=".76" depth="1.5" color="#D8C3A5"></a-box>
+<a-box position="0 .38 4.5" width="5.4" height=".76" depth="1.5" color="#D8C3A5"></a-box>
 
 <a-entity id="artGroup"></a-entity>
 <a-entity position="0 0 10">
@@ -73,7 +73,9 @@ function createImageAsset(slot){
 for(let slot=1;slot<=20;slot++){
  const id=createImageAsset(slot); const s=spots[slot-1];
  const w=document.createElement("a-entity");w.setAttribute("position",s.p);w.setAttribute("rotation",s.r);
- const frame=document.createElement("a-box");frame.setAttribute("width","3.6");frame.setAttribute("height","2.55");frame.setAttribute("depth",".09");frame.setAttribute("color","#2E2B28");w.appendChild(frame);
+ const frame=document.createElement("a-box");frame.setAttribute("width","3.85");frame.setAttribute("height","2.85");frame.setAttribute("depth",".12");frame.setAttribute("color","#C9B79C");w.appendChild(frame);
+  const inner=document.createElement("a-box");inner.setAttribute("width","3.62");inner.setAttribute("height","2.62");inner.setAttribute("depth",".05");inner.setAttribute("position","0 0 .08");inner.setAttribute("color","#FAF8F3");w.appendChild(inner);
+  const spot=document.createElement("a-entity");spot.setAttribute("light","type:spot;intensity:1.2;angle:35;color:#FFF1D0");spot.setAttribute("position","0 2 .2");w.appendChild(spot);
  const art=document.createElement("a-plane");art.classList.add("art");art.setAttribute("src",`#${id}`);art.setAttribute("width","3.36");art.setAttribute("height","2.31");art.setAttribute("position","0 0 .055");art.setAttribute("material","shader:flat");
  art.addEventListener("click",()=>showInfo(slot));w.appendChild(art);
  artGroup.appendChild(w);
