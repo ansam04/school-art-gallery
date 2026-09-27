@@ -1,0 +1,3542 @@
+{
+  "title": "معرض الفن الافتراضي",
+  "subtitle": "لطالبات الصف الثاني متوسط\nالمدرسة المتوسطة الثامنة بينبع البحر",
+  "style": "Modern Museum",
+  "classes": [
+    {
+      "name": "الفصل 1",
+      "rooms": [
+        {
+          "name": "قاعة الرسم",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الرسم_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الزخرفة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الزخرفة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الطباعة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الطباعة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الخزف",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_1_قاعة الخزف_20.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 2",
+      "rooms": [
+        {
+          "name": "قاعة الرسم",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الرسم_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الزخرفة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الزخرفة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الطباعة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الطباعة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الخزف",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_2_قاعة الخزف_20.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 3",
+      "rooms": [
+        {
+          "name": "قاعة الرسم",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الرسم_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الزخرفة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الزخرفة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الطباعة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الطباعة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الخزف",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_3_قاعة الخزف_20.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 4",
+      "rooms": [
+        {
+          "name": "قاعة الرسم",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الرسم_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الزخرفة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الزخرفة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الطباعة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الطباعة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الخزف",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_4_قاعة الخزف_20.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 5",
+      "rooms": [
+        {
+          "name": "قاعة الرسم",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الرسم_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الزخرفة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الزخرفة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الطباعة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الطباعة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الخزف",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_5_قاعة الخزف_20.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 6",
+      "rooms": [
+        {
+          "name": "قاعة الرسم",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الرسم_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الزخرفة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الزخرفة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الطباعة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الطباعة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الخزف",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_6_قاعة الخزف_20.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "الفصل 7",
+      "rooms": [
+        {
+          "name": "قاعة الرسم",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الرسم_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الزخرفة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الزخرفة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الطباعة",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الطباعة_20.jpg"
+            }
+          ]
+        },
+        {
+          "name": "قاعة الخزف",
+          "artworks": [
+            {
+              "title": "العمل الفني 1",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_1.jpg"
+            },
+            {
+              "title": "العمل الفني 2",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_2.jpg"
+            },
+            {
+              "title": "العمل الفني 3",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_3.jpg"
+            },
+            {
+              "title": "العمل الفني 4",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_4.jpg"
+            },
+            {
+              "title": "العمل الفني 5",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_5.jpg"
+            },
+            {
+              "title": "العمل الفني 6",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_6.jpg"
+            },
+            {
+              "title": "العمل الفني 7",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_7.jpg"
+            },
+            {
+              "title": "العمل الفني 8",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_8.jpg"
+            },
+            {
+              "title": "العمل الفني 9",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_9.jpg"
+            },
+            {
+              "title": "العمل الفني 10",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_10.jpg"
+            },
+            {
+              "title": "العمل الفني 11",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_11.jpg"
+            },
+            {
+              "title": "العمل الفني 12",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_12.jpg"
+            },
+            {
+              "title": "العمل الفني 13",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_13.jpg"
+            },
+            {
+              "title": "العمل الفني 14",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_14.jpg"
+            },
+            {
+              "title": "العمل الفني 15",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_15.jpg"
+            },
+            {
+              "title": "العمل الفني 16",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_16.jpg"
+            },
+            {
+              "title": "العمل الفني 17",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_17.jpg"
+            },
+            {
+              "title": "العمل الفني 18",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_18.jpg"
+            },
+            {
+              "title": "العمل الفني 19",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_19.jpg"
+            },
+            {
+              "title": "العمل الفني 20",
+              "artist": "اسم الطالبة",
+              "description": "وصف العمل الفني",
+              "image": "assets/artworks/class_7_قاعة الخزف_20.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
