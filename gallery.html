@@ -2,71 +2,88 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Virtual Gallery</title>
+<title>قاعة العرض</title>
 <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
-<style>
-html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Arial,Tahoma,sans-serif}
-.top{position:fixed;z-index:10;top:12px;left:12px;right:12px;display:flex;justify-content:space-between;gap:10px;pointer-events:none}
-.top>*{pointer-events:auto}.glass{background:#fffffff0;border:1px solid #ffffff99;box-shadow:0 8px 25px #0002;border-radius:14px}
-.title{padding:10px 14px}.title b,.title span{display:block}.title span{font-size:12px;color:#666}
-.home{text-decoration:none;color:#222;padding:11px 15px;font-weight:bold}
-.nav{position:fixed;z-index:10;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:7px;padding:8px;background:#fffffff0;border-radius:16px;max-width:calc(100vw - 20px);overflow:auto;direction:ltr}
-.nav a{text-decoration:none;color:#222;background:white;border:1px solid #ddd;border-radius:10px;padding:9px 12px;font-weight:bold;white-space:nowrap;font-size:13px}
-.nav a.active{outline:3px solid #0002}
-.info{display:none;position:fixed;z-index:12;right:16px;top:82px;width:min(360px,calc(100vw - 32px));background:#fffffff5;border-radius:18px;padding:18px;box-shadow:0 10px 30px #0003}
-.info.show{display:block}.info button{position:absolute;left:10px;top:10px;border:0;border-radius:50%;width:32px;height:32px}.info h3{margin:0 0 8px}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="top">
-<div class="title glass"><b id="classTitle"></b><span id="roomTitle"></span></div>
-<a href="index.html" class="home glass">← الرئيسية</a>
+<div class="ui top">
+ <div class="titlebox glass"><b id="classTitle"></b><span id="roomTitle"></span></div>
+ <a class="home glass" id="backWing" href="#">← جناح الفصل</a>
 </div>
-<div class="info" id="info">
-<button id="closeInfo">×</button><h3 id="it"></h3><p id="ia"></p><p id="id"></p>
+<div class="hint glass">الحركة: WASD • النظر: الماوس • اضغطي على أي عمل لعرض معلوماته</div>
+<div class="ui bottom glass" id="roomNav"></div>
+<div class="info glass" id="info">
+ <button class="close" id="closeInfo">×</button>
+ <h3 id="infoTitle"></h3><p id="infoStudent"></p><p id="infoDesc"></p>
 </div>
-<div class="nav" id="roomNav"></div>
 
-<a-scene renderer="antialias:true;colorManagement:true" background="color:#EDE7DE">
-<a-assets id="assets"></a-assets>
-<a-entity light="type:ambient;intensity:.8;color:#FFF7EA"></a-entity>
-<a-entity light="type:directional;intensity:.45" position="-2 5 3"></a-entity>
-<a-plane rotation="-90 0 0" width="12" height="16" color="#D8D0C4"></a-plane>
-<a-plane rotation="90 0 0" position="0 4.8 0" width="12" height="16" color="#F7F4EF"></a-plane>
-<a-box position="0 2.4 -8" width="12" height="4.8" depth=".15" color="#F7F4EF"></a-box>
-<a-box position="-6 2.4 0" width=".15" height="4.8" depth="16" color="#F2EEE7"></a-box>
-<a-box position="6 2.4 0" width=".15" height="4.8" depth="16" color="#F2EEE7"></a-box>
-<a-box position="0 2.4 8" width="12" height="4.8" depth=".15" color="#F7F4EF"></a-box>
-<a-text id="room3d" align="center" width="8" color="#222" position="0 3.7 -7.88"></a-text>
+<a-scene renderer="antialias:true;colorManagement:true" background="color:#ECE8E1">
+<a-assets id="assetBox"><img id="placeholder" src="assets/placeholder.jpg"></a-assets>
+<a-entity light="type:ambient;intensity:.74;color:#FFF6E9"></a-entity>
+<a-entity light="type:directional;intensity:.42" position="-4 7 5"></a-entity>
+
+<!-- large modern gallery -->
+<a-plane rotation="-90 0 0" width="26" height="30" color="#D7D2CA"></a-plane>
+<a-plane rotation="90 0 0" position="0 6 0" width="26" height="30" color="#FBF9F5"></a-plane>
+<a-box position="0 3 -15" width="26" height="6" depth=".18" color="#F8F6F1"></a-box>
+<a-box position="-13 3 0" width=".18" height="6" depth="30" color="#F3F0EA"></a-box>
+<a-box position="13 3 0" width=".18" height="6" depth="30" color="#F3F0EA"></a-box>
+<a-box position="0 3 15" width="26" height="6" depth=".18" color="#F8F6F1"></a-box>
+
+<!-- central benches -->
+<a-box position="0 .38 -3.5" width="5.4" height=".76" depth="1.5" color="#BDB7AE"></a-box>
+<a-box position="0 .38 4.5" width="5.4" height=".76" depth="1.5" color="#BDB7AE"></a-box>
+
 <a-entity id="artGroup"></a-entity>
-<a-entity position="0 0 5">
-<a-camera position="0 1.65 0" wasd-controls="acceleration:28" look-controls>
-<a-cursor raycaster="objects:.clickable" geometry="primitive:ring;radiusInner:.006;radiusOuter:.011" material="color:#222;shader:flat" position="0 0 -1"></a-cursor>
-</a-camera>
-</a-entity>
+<a-entity position="0 0 10">
+<a-camera position="0 1.65 0" wasd-controls="acceleration:34" look-controls>
+<a-cursor raycaster="objects:.art" geometry="primitive:ring;radiusInner:.006;radiusOuter:.011" material="color:#222;shader:flat" position="0 0 -1"></a-cursor>
+</a-camera></a-entity>
 </a-scene>
 
 <script src="data.js"></script>
 <script>
 const q=new URLSearchParams(location.search);
-const ci=Math.min(Math.max(parseInt(q.get("class")||"1"),1),GALLERY.classes.length)-1;
-const ri=Math.min(Math.max(parseInt(q.get("room")||"1"),1),4)-1;
-const cls=GALLERY.classes[ci], room=cls.rooms[ri];
-classTitle.textContent=cls.name; roomTitle.textContent=room.title;
-room3d.setAttribute("value",`${cls.name} • ${room.title}`);
-cls.rooms.forEach((r,i)=>{const a=document.createElement("a");a.href=`gallery.html?class=${ci+1}&room=${i+1}`;a.textContent=r.title;if(i===ri)a.className="active";roomNav.appendChild(a)});
-room.artworks.forEach((art,i)=>{const img=document.createElement("img");img.id=`asset${i}`;img.src=art.image;assets.appendChild(img)});
-const spots=[
-{p:"-3 2.3 -7.88",r:"0 0 0"},{p:"0 2.3 -7.88",r:"0 0 0"},{p:"3 2.3 -7.88",r:"0 0 0"},
-{p:"-5.88 2.3 -2.5",r:"0 90 0"},{p:"5.88 2.3 -2.5",r:"0 -90 0"},{p:"0 2.3 7.88",r:"0 180 0"}];
-room.artworks.slice(0,6).forEach((art,i)=>{
- const w=document.createElement("a-entity"); w.setAttribute("position",spots[i].p);w.setAttribute("rotation",spots[i].r);
- const f=document.createElement("a-box");f.setAttribute("width","2.45");f.setAttribute("height","1.85");f.setAttribute("depth",".08");f.setAttribute("color","#2E2A27");w.appendChild(f);
- const p=document.createElement("a-plane");p.classList.add("clickable");p.setAttribute("src",`#asset${i}`);p.setAttribute("width","2.25");p.setAttribute("height","1.65");p.setAttribute("position","0 0 .05");p.setAttribute("material","shader:flat");p.addEventListener("click",()=>show(art));w.appendChild(p);
- const t=document.createElement("a-text");t.setAttribute("value",art.title);t.setAttribute("align","center");t.setAttribute("width","3.2");t.setAttribute("color","#222");t.setAttribute("position","0 -1.15 .03");w.appendChild(t);
- artGroup.appendChild(w);
+const ci=Math.min(Math.max(parseInt(q.get("class")||"1"),1),7);
+const ri=Math.min(Math.max(parseInt(q.get("room")||"1"),1),4);
+const room=MUSEUM.rooms[ri-1];
+classTitle.textContent=MUSEUM.classes[ci-1].name; roomTitle.textContent=room.name;
+backWing.href=`wing.html?class=${ci}`;
+MUSEUM.rooms.forEach((r,i)=>{
+ const a=document.createElement("a"); a.href=`gallery.html?class=${ci}&room=${i+1}`; a.textContent=r.name;
+ if(i===ri-1)a.className="active"; roomNav.appendChild(a);
 });
-function show(a){it.textContent=a.title;ia.textContent=a.artist?`الفنان/ة: ${a.artist}`:"";id.textContent=a.description||"";info.classList.add("show")}
+
+// 20 positions: 5 on each wall
+const xs=[-9.6,-4.8,0,4.8,9.6];
+const zs=[-10.5,-5.25,0,5.25,10.5];
+const spots=[];
+xs.forEach(x=>spots.push({p:`${x} 2.75 -14.82`,r:"0 0 0"}));
+zs.forEach(z=>spots.push({p:`-12.82 2.75 ${z}`,r:"0 90 0"}));
+zs.forEach(z=>spots.push({p:`12.82 2.75 ${z}`,r:"0 -90 0"}));
+xs.forEach(x=>spots.push({p:`${x} 2.75 14.82`,r:"0 180 0"}));
+
+function createImageAsset(slot){
+ const id=`artAsset${slot}`; const img=document.createElement("img");img.id=id;
+ const base=artworkBase(ci,room.slug,slot); const exts=[".jpg",".jpeg",".png",".webp"]; let k=0;
+ img.onerror=()=>{k++; if(k<exts.length) img.src=base+exts[k]; else {img.onerror=null;img.src="assets/placeholder.jpg";}};
+ img.src=base+exts[0]; assetBox.appendChild(img); return id;
+}
+for(let slot=1;slot<=20;slot++){
+ const id=createImageAsset(slot); const s=spots[slot-1];
+ const w=document.createElement("a-entity");w.setAttribute("position",s.p);w.setAttribute("rotation",s.r);
+ const frame=document.createElement("a-box");frame.setAttribute("width","3.6");frame.setAttribute("height","2.55");frame.setAttribute("depth",".09");frame.setAttribute("color","#2E2B28");w.appendChild(frame);
+ const art=document.createElement("a-plane");art.classList.add("art");art.setAttribute("src",`#${id}`);art.setAttribute("width","3.36");art.setAttribute("height","2.31");art.setAttribute("position","0 0 .055");art.setAttribute("material","shader:flat");
+ art.addEventListener("click",()=>showInfo(slot));w.appendChild(art);
+ artGroup.appendChild(w);
+}
+function showInfo(slot){
+ infoTitle.textContent=`العمل الفني ${String(slot).padStart(2,"0")}`;
+ infoStudent.textContent="اسم الطالبة: يضاف لاحقًا";
+ infoDesc.textContent=`${MUSEUM.classes[ci-1].name} — ${room.name}`;
+ info.classList.add("show");
+}
 closeInfo.onclick=()=>info.classList.remove("show");
 </script>
 </body></html>

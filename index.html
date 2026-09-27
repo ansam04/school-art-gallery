@@ -2,42 +2,86 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>المعرض الفني الافتراضي</title>
-<style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,Tahoma,sans-serif;background:#f4efe7;color:#222}
-main{min-height:100vh;display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;padding:48px 7vw}
-.logo{width:96px;height:96px;border-radius:50%;object-fit:cover;background:white;border:1px solid #ddd}
-h1{font-size:clamp(38px,6vw,72px);margin:18px 0 10px;line-height:1.05}
-p{font-size:19px;line-height:1.8;color:#5e5852}
-.panel{background:#ffffffcc;border:1px solid #ddd4c8;border-radius:24px;padding:24px;box-shadow:0 18px 50px #00000014}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.card{display:block;text-decoration:none;color:#222;background:white;border:1px solid #e3dbd0;border-radius:16px;padding:18px}
-.card:hover{transform:translateY(-2px);box-shadow:0 10px 22px #00000012}
-.card b{display:block;font-size:19px;margin-bottom:5px}.card span{font-size:13px;color:#746d66}
-@media(max-width:800px){main{grid-template-columns:1fr;padding:26px 18px}.grid{grid-template-columns:1fr}}
-</style>
+<title>معرض الفن الافتراضي</title>
+<script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main>
-<section>
-<img src="school_logo.png" class="logo" alt="شعار المدرسة">
-<h1 id="schoolName"></h1>
-<p id="intro"></p>
-<p style="font-size:13px">داخل المعرض: WASD للحركة، والماوس للنظر، واضغطي على اللوحة لعرض المعلومات.</p>
-</section>
-<section class="panel">
-<h2>اختاري الفصل</h2>
-<div id="classGrid" class="grid"></div>
-</section>
-</main>
+<div class="ui top">
+  <div class="titlebox glass"><b>معرض الفن الافتراضي</b><span>لطالبات الصف الثاني متوسط — المدرسة المتوسطة الثامنة بينبع البحر</span></div>
+</div>
+<div class="hint glass">الحركة: WASD • النظر: الماوس • اختاري أحد مداخل الفصول</div>
+
+<a-scene renderer="antialias:true;colorManagement:true" background="color:#EDE9E2">
+<a-assets>
+  <img id="museumTitle" src="assets/labels/museum_title.png">
+  <img id="class1" src="assets/labels/class_1.png"><img id="class2" src="assets/labels/class_2.png">
+  <img id="class3" src="assets/labels/class_3.png"><img id="class4" src="assets/labels/class_4.png">
+  <img id="class5" src="assets/labels/class_5.png"><img id="class6" src="assets/labels/class_6.png">
+  <img id="class7" src="assets/labels/class_7.png">
+</a-assets>
+
+<!-- Modern museum shell -->
+<a-entity light="type:ambient;intensity:.78;color:#FFF7EB"></a-entity>
+<a-entity light="type:directional;intensity:.5" position="-4 7 4"></a-entity>
+<a-plane rotation="-90 0 0" width="34" height="34" color="#D9D4CB"></a-plane>
+<a-plane rotation="90 0 0" position="0 6 0" width="34" height="34" color="#FAF8F4"></a-plane>
+<a-box position="0 3 -16" width="34" height="6" depth=".2" color="#F8F6F1"></a-box>
+<a-box position="-17 3 0" width=".2" height="6" depth="34" color="#F3F0EA"></a-box>
+<a-box position="17 3 0" width=".2" height="6" depth="34" color="#F3F0EA"></a-box>
+<a-box position="0 3 16" width="34" height="6" depth=".2" color="#F8F6F1"></a-box>
+
+<!-- Main exhibition title -->
+<a-plane src="#museumTitle" position="0 4.25 -15.82" width="10.2" height="3.12" material="shader:flat"></a-plane>
+
+<!-- Pedestal / sculptural lobby detail -->
+<a-cylinder position="0 .65 -7" radius="1.35" height="1.3" color="#F4F1EC"></a-cylinder>
+<a-torus position="0 2 -7" radius="1.25" radius-tubular=".18" rotation="90 0 0" color="#BDB7AE"></a-torus>
+
+<!-- Portals -->
+<a-entity id="portals"></a-entity>
+
+<a-entity position="0 0 11">
+  <a-camera position="0 1.65 0" wasd-controls="acceleration:32" look-controls>
+    <a-cursor raycaster="objects:.portal" geometry="primitive:ring;radiusInner:.006;radiusOuter:.011" material="color:#222;shader:flat" position="0 0 -1"></a-cursor>
+  </a-camera>
+</a-entity>
+</a-scene>
+
 <script src="data.js"></script>
 <script>
-schoolName.textContent=GALLERY.schoolName; intro.textContent=GALLERY.intro;
-GALLERY.classes.forEach((c,i)=>{
- const a=document.createElement("a"); a.className="card";
- a.href=`gallery.html?class=${i+1}&room=1`;
- a.innerHTML=`<b>${c.name}</b><span>4 قاعات افتراضية</span>`;
- classGrid.appendChild(a);
+const portalPositions = [
+  {p:"-10 2.2 -15.72", r:"0 0 0"},
+  {p:"-5 2.2 -15.72", r:"0 0 0"},
+  {p:"5 2.2 -15.72", r:"0 0 0"},
+  {p:"10 2.2 -15.72", r:"0 0 0"},
+  {p:"-16.72 2.2 -5", r:"0 90 0"},
+  {p:"16.72 2.2 -5", r:"0 -90 0"},
+  {p:"0 2.2 15.72", r:"0 180 0"}
+];
+MUSEUM.classes.forEach((c,i)=>{
+  const wrap=document.createElement("a-entity");
+  wrap.setAttribute("position",portalPositions[i].p);
+  wrap.setAttribute("rotation",portalPositions[i].r);
+
+  const frame=document.createElement("a-box");
+  frame.setAttribute("width","3.4");frame.setAttribute("height","4.5");frame.setAttribute("depth",".22");
+  frame.setAttribute("color","#D4CFC7");
+  wrap.appendChild(frame);
+
+  const door=document.createElement("a-box");
+  door.classList.add("portal");
+  door.setAttribute("width","2.85");door.setAttribute("height","3.85");door.setAttribute("depth",".12");
+  door.setAttribute("position","0 -.18 .17");door.setAttribute("color","#252525");
+  door.addEventListener("click",()=> location.href=`wing.html?class=${i+1}`);
+  wrap.appendChild(door);
+
+  const label=document.createElement("a-plane");
+  label.setAttribute("src",`#class${i+1}`);
+  label.setAttribute("width","2.75");label.setAttribute("height",".76");
+  label.setAttribute("position","0 2.05 .2");label.setAttribute("material","shader:flat");
+  wrap.appendChild(label);
+  portals.appendChild(wrap);
 });
 </script>
 </body></html>

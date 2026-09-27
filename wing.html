@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>جناح الفصل</title>
+<script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ui top">
+  <div class="titlebox glass"><b id="classTitle"></b><span>اختاري إحدى القاعات الأربع</span></div>
+  <a class="home glass" href="index.html">← البهو الرئيسي</a>
+</div>
+<div class="hint glass">اضغطي على أحد المداخل للانتقال إلى القاعة</div>
+
+<a-scene renderer="antialias:true;colorManagement:true" background="color:#ECE8E1">
+<a-assets>
+  <img id="drawing" src="assets/labels/drawing.png"><img id="decoration" src="assets/labels/decoration.png">
+  <img id="printing" src="assets/labels/printing.png"><img id="ceramics" src="assets/labels/ceramics.png">
+</a-assets>
+<a-entity light="type:ambient;intensity:.8;color:#FFF8EC"></a-entity>
+<a-entity light="type:directional;intensity:.48" position="-3 6 4"></a-entity>
+<a-plane rotation="-90 0 0" width="24" height="26" color="#D8D3CB"></a-plane>
+<a-plane rotation="90 0 0" position="0 5.5 0" width="24" height="26" color="#FAF8F4"></a-plane>
+<a-box position="0 2.75 -13" width="24" height="5.5" depth=".2" color="#F7F5F0"></a-box>
+<a-box position="-12 2.75 0" width=".2" height="5.5" depth="26" color="#F2EFE9"></a-box>
+<a-box position="12 2.75 0" width=".2" height="5.5" depth="26" color="#F2EFE9"></a-box>
+<a-box position="0 2.75 13" width="24" height="5.5" depth=".2" color="#F7F5F0"></a-box>
+<a-entity id="roomDoors"></a-entity>
+<a-entity position="0 0 8">
+<a-camera position="0 1.65 0" wasd-controls="acceleration:30" look-controls>
+<a-cursor raycaster="objects:.roomdoor" geometry="primitive:ring;radiusInner:.006;radiusOuter:.011" material="color:#222;shader:flat" position="0 0 -1"></a-cursor>
+</a-camera></a-entity>
+</a-scene>
+<script src="data.js"></script>
+<script>
+const q=new URLSearchParams(location.search); const ci=Math.min(Math.max(parseInt(q.get("class")||"1"),1),7);
+classTitle.textContent=MUSEUM.classes[ci-1].name;
+const pos=[
+ {p:"-5 2.15 -12.72",r:"0 0 0"},{p:"5 2.15 -12.72",r:"0 0 0"},
+ {p:"-11.72 2.15 0",r:"0 90 0"},{p:"11.72 2.15 0",r:"0 -90 0"}
+];
+MUSEUM.rooms.forEach((room,i)=>{
+ const w=document.createElement("a-entity");w.setAttribute("position",pos[i].p);w.setAttribute("rotation",pos[i].r);
+ const fr=document.createElement("a-box");fr.setAttribute("width","4.1");fr.setAttribute("height","4.35");fr.setAttribute("depth",".22");fr.setAttribute("color","#D5D0C8");w.appendChild(fr);
+ const d=document.createElement("a-box");d.classList.add("roomdoor");d.setAttribute("width","3.55");d.setAttribute("height","3.7");d.setAttribute("depth",".12");d.setAttribute("position","0 -.18 .17");d.setAttribute("color","#2A2A2A");
+ d.addEventListener("click",()=>location.href=`gallery.html?class=${ci}&room=${i+1}`);w.appendChild(d);
+ const l=document.createElement("a-plane");l.setAttribute("src",`#${room.slug}`);l.setAttribute("width","3.4");l.setAttribute("height",".95");l.setAttribute("position","0 1.95 .2");l.setAttribute("material","shader:flat");w.appendChild(l);
+ roomDoors.appendChild(w);
+});
+</script>
+</body></html>
