@@ -13,37 +13,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             }
           ]
         },
@@ -54,37 +54,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             }
           ]
         },
@@ -95,37 +95,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             }
           ]
         },
@@ -136,37 +136,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             }
           ]
         }
@@ -182,37 +182,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             }
           ]
         },
@@ -223,37 +223,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             }
           ]
         },
@@ -264,37 +264,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             }
           ]
         },
@@ -305,37 +305,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             }
           ]
         }
@@ -351,37 +351,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             }
           ]
         },
@@ -392,37 +392,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             }
           ]
         },
@@ -433,37 +433,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             }
           ]
         },
@@ -474,37 +474,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             }
           ]
         }
@@ -520,37 +520,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             }
           ]
         },
@@ -561,37 +561,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             }
           ]
         },
@@ -602,37 +602,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             }
           ]
         },
@@ -643,37 +643,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             }
           ]
         }
@@ -689,37 +689,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             }
           ]
         },
@@ -730,37 +730,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             }
           ]
         },
@@ -771,37 +771,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             }
           ]
         },
@@ -812,37 +812,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             }
           ]
         }
@@ -858,37 +858,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             }
           ]
         },
@@ -899,37 +899,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             }
           ]
         },
@@ -940,37 +940,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             }
           ]
         },
@@ -981,37 +981,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             }
           ]
         }
@@ -1027,37 +1027,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             }
           ]
         },
@@ -1068,37 +1068,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_2.jpg"
+              "image": "art_2.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             }
           ]
         },
@@ -1109,37 +1109,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_3.jpg"
+              "image": "art_3.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             }
           ]
         },
@@ -1150,37 +1150,37 @@ const GALLERY = {
               "title": "عمل فني 1",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_4.jpg"
+              "image": "art_4.jpg"
             },
             {
               "title": "عمل فني 2",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_5.jpg"
+              "image": "art_5.jpg"
             },
             {
               "title": "عمل فني 3",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_6.jpg"
+              "image": "art_6.jpg"
             },
             {
               "title": "عمل فني 4",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_7.jpg"
+              "image": "art_7.jpg"
             },
             {
               "title": "عمل فني 5",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_8.jpg"
+              "image": "art_8.jpg"
             },
             {
               "title": "عمل فني 6",
               "artist": "اسم الطالبة",
               "description": "اكتبي هنا وصفًا مختصرًا للعمل الفني.",
-              "image": "assets/artworks/art_1.jpg"
+              "image": "art_1.jpg"
             }
           ]
         }
