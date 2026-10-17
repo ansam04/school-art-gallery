@@ -4,3 +4,122 @@
 @media(max-width:980px){.workspace{grid-template-columns:210px minmax(0,1fr)}.inspector{display:none}.scene-caption{max-width:350px}.scene-bottom{bottom:17px}.viewport{min-height:calc(100vh - 150px)}}
 @media(max-width:670px){.topbar{height:76px;padding:9px 13px}.brand{gap:9px}.brand-emblem{height:43px;width:43px;border-radius:12px}.brand h1{font-size:11px;line-height:1.8}.brand-eyebrow{font-size:8px;letter-spacing:0}.header-actions{gap:6px}.live-mark{display:none}.header-actions .outline-btn span{display:none}.header-actions .outline-btn{padding:10px}.menu-btn,.mobile-close{display:inline-flex}.workspace{display:block;position:relative}.sidebar{position:fixed;top:76px;right:0;bottom:0;z-index:15;width:min(300px,88vw);box-shadow:-16px 5px 45px #171d2344;transform:translateX(110%);transition:transform .22s ease}.sidebar--open{transform:translateX(0)}.mobile-close{position:absolute;top:20px;left:14px;border:0;background:#eee5db;border-radius:9px;padding:6px}.side-nav{max-height:calc(100vh - 250px)}.viewport{min-height:calc(100dvh - 126px)}.scene-top{top:11px;left:9px;right:9px}.scene-breadcrumb{font-size:9px;padding:8px}.scene-chip{font-size:9px;padding:7px}.scene-bottom{left:10px;right:10px;bottom:17px;align-items:flex-end;gap:5px}.scene-caption{padding:12px 13px;width:auto;max-width:73%}.scene-caption .eyebrow{font-size:7px}.scene-caption h2{font-size:16px;margin:5px 0}.scene-caption p{font-size:9px;line-height:1.65}.scene-actions .primary-btn,.scene-actions .glass-btn{font-size:10px;padding:9px 8px;gap:3px;white-space:normal}.movement-pad{bottom:145px;left:9px}.movement-pad button{width:31px;height:31px}.lower-bar{font-size:8px;padding:8px 10px}.lower-bar span:last-child{display:none}.footer{padding-inline:14px;font-size:8px}.footer span:last-child{display:none}.art-modal{display:flex;flex-direction:column;overflow:auto}.art-modal>img{height:40vh;flex-shrink:0}.art-details{padding:22px}.admin-modal{padding:15px;max-height:95vh}.admin-columns{grid-template-columns:1fr}.admin-library{border-right:0;border-top:1px solid #e6d9cb;padding-right:0;padding-top:18px;max-height:none}.admin-toolbar{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+
+/* Mobile Admin Panel Improvements */
+
+@media (max-width: 670px) {
+
+  .modal-backdrop {
+    z-index: 20000000;
+    padding: 8px;
+    overflow: hidden;
+  }
+
+  .admin-modal {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    max-height: calc(100dvh - 16px);
+    margin: auto;
+    padding: 16px 14px 20px;
+    border-radius: 14px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .admin-header {
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .admin-header h2 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .admin-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    overflow-wrap: anywhere;
+  }
+
+  .admin-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+
+  .admin-form,
+  .admin-library {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .admin-form {
+    gap: 14px;
+  }
+
+  .admin-form h3,
+  .admin-library h3 {
+    font-size: 15px;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .admin-form label {
+    font-size: 13px;
+  }
+
+  .admin-form input:not([type="file"]),
+  .admin-form select {
+    width: 100%;
+    max-width: 100%;
+    min-height: 44px;
+    font-size: 16px;
+  }
+
+  .upload-file {
+    min-height: 72px;
+    padding: 12px;
+  }
+
+  .upload-file span {
+    font-size: 12px;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+  }
+
+  .admin-form-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .admin-form-actions button {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .admin-library {
+    border-right: 0;
+    padding-right: 0;
+    max-height: none;
+  }
+
+  .admin-library-item {
+    align-items: flex-start;
+  }
+
+  .admin-library-item > div,
+  .admin-message {
+    overflow-wrap: anywhere;
+  }
+}
