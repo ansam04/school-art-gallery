@@ -16,10 +16,14 @@ const SCHOOL_SIGN_LINES = [
   { text: SCHOOL, size: 103, weight: 700, color: '#274542' },
   { text: 'معرض الإبداع الفني الافتراضي', size: 57, weight: 600, color: '#957950' },
 ]
+// Five intentionally short lines: larger names without enlarging the plaque.
+// Dark colors and bold weights improve legibility on mobile devices.
 const LOBBY_CREDIT_LINES = [
-  { text: 'معرض إبداعات طالباتنا', size: 84, weight: 700, color: '#274542' },
-  { text: 'إشراف معلمة التربية الفنية: أريج الفواز', size: 58, weight: 600, color: '#435b58' },
-  { text: 'مديرة المدرسة: ماجدة الرفاعي', size: 58, weight: 600, color: '#435b58' },
+  { text: 'معرض إبداعات طالباتنا', size: 136, weight: 800, color: '#173b38' },
+  { text: 'إشراف معلمة التربية الفنية', size: 96, weight: 700, color: '#35514c' },
+  { text: 'أريج الفواز', size: 158, weight: 800, color: '#123b37' },
+  { text: 'مديرة المدرسة', size: 96, weight: 700, color: '#35514c' },
+  { text: 'ماجدة الرفاعي', size: 158, weight: 800, color: '#123b37' },
 ]
 
 function Box({ p=[0,0,0], s=[1,1,1], color=C.cream, metalness=0, roughness=.8, onClick, rotation, opacity=1 }) {
@@ -110,7 +114,7 @@ function RoomCeiling({w,d}) {
     </group>)}
   </group>
 }
-function GalleryShell({w=30,d=23,heading,sub,finishedCeiling=false}){
+function GalleryShell({w=30,d=23,heading,sub,finishedCeiling=false,roomNameplate=false}){
   return <group>
     <Ground w={w} d={d}/>
     <Box p={[0,3.42,-d/2]} s={[w,6.84,.42]} color={C.cream}/>
@@ -119,7 +123,22 @@ function GalleryShell({w=30,d=23,heading,sub,finishedCeiling=false}){
     <Box p={[0,.22,-d/2+.31]} s={[w-.45,.36,.22]} color={C.brass}/>
     <Box p={[0,6.63,-d/2+.3]} s={[w-.5,.23,.23]} color={C.brass}/>
     {finishedCeiling ? <RoomCeiling w={w} d={d}/> : <CeilingBeams w={w} d={d}/>}
-    <Label p={[0,5.5,-d/2+.42]} width={390} className="architecture-title"><strong>{heading}</strong><small>{sub}</small></Label>
+    {roomNameplate ? (
+      // Real three-dimensional wall sign: stays sharp and fixed above the art.
+      // Unlike a floating Html label, it never overlaps the framed works on phones.
+      <CanvasSign
+        p={[0,5.70,-d/2+.63]}
+        size={[8.2,1.58]}
+        frameColor="#496963"
+        faceColor="#f8f5ef"
+        lines={[
+          { text: heading, size: 148, weight: 800, color: '#193e39' },
+          { text: sub.split('|')[0].trim(), size: 94, weight: 700, color: '#415d55' },
+        ]}
+      />
+    ) : (
+      <Label p={[0,5.5,-d/2+.42]} width={390} className="architecture-title"><strong>{heading}</strong><small>{sub}</small></Label>
+    )}
     <pointLight position={[0,5,0]} intensity={80} distance={25} color="#ffe1bc"/>
   </group>
 }
@@ -138,12 +157,13 @@ function CanvasSign({
   textColor='#274542',
   accentColor='#b58d58',
   rotation=[0,0,0],
+  textureWidth=2048,
 }) {
   const innerWidth = size[0] - .20
   const innerHeight = size[1] - .20
   const texture = useMemo(() => {
     const canvas = document.createElement('canvas')
-    canvas.width = 2048
+    canvas.width = textureWidth
     // Match actual mesh aspect ratio to avoid stretching the words.
     canvas.height = Math.round(canvas.width * (innerHeight / innerWidth))
     const ctx = canvas.getContext('2d')
@@ -161,20 +181,31 @@ function CanvasSign({
     ctx.direction = 'rtl'
     ctx.textAlign = 'center'
     ctx.textBaseline = 'middle'
-    const ys = lines.length === 1 ? [.5] : lines.length === 2 ? [.35, .76] : [.25, .51, .78]
+    const ys = lines.length === 1 ? [.5]
+      : lines.length === 2 ? [.34, .76]
+      : lines.length === 5 ? [.145, .320, .490, .655, .825]
+      : [.25, .51, .78]
     lines.forEach((line, i) => {
       const { text = '', size: requestedSize = 90, weight = 700, color = textColor } =
         typeof line === 'string' ? { text: line } : line
       ctx.fillStyle = color
       // Limit type size to the available vertical space as well as the width.
       // The source size scales for larger / smaller canvas heights.
-      const lineHeightCap = h * (lines.length === 3 ? .18 : lines.length === 2 ? .27 : .5)
+      const lineHeightCap = h * (lines.length === 5 ? .154 : lines.length === 3 ? .18 : lines.length === 2 ? .34 : .5)
       let fontSize = Math.min(requestedSize * (w / 1800), lineHeightCap)
+      const sidePadding = Math.max(115, w * .075)
       while (fontSize > 22) {
         ctx.font = `${weight} ${Math.round(fontSize)}px Tahoma, Arial, sans-serif`
-        if (ctx.measureText(text).width <= w - 150) break
+        if (ctx.measureText(text).width <= w - sidePadding * 2) break
         fontSize -= 2
       }
+      // A very subtle ink outline helps dark Arabic letters hold their shape
+      // at smaller mobile display sizes without making the text look heavy.
+      ctx.font = `${weight} ${Math.round(fontSize)}px Tahoma, Arial, sans-serif`
+      ctx.lineJoin = 'round'
+      ctx.strokeStyle = color
+      ctx.lineWidth = Math.max(.6, fontSize * .012)
+      ctx.strokeText(text, w / 2, h * (ys[i] ?? .5))
       ctx.fillText(text, w / 2, h * (ys[i] ?? .5))
     })
     const t = new THREE.CanvasTexture(canvas)
@@ -182,7 +213,7 @@ function CanvasSign({
     t.anisotropy = 8
     t.needsUpdate = true
     return t
-  }, [lines, innerHeight, innerWidth, faceColor, textColor, accentColor])
+  }, [lines, innerHeight, innerWidth, faceColor, textColor, accentColor, textureWidth])
   useEffect(() => () => texture?.dispose(), [texture])
   return <group position={p} rotation={rotation}>
     <Box s={[size[0], size[1], .12]} color={frameColor} roughness={.55}/>
@@ -308,7 +339,7 @@ function Lobby({go}){
     <Box p={[0,1.6,6]} s={[10,.16,1.9]} color={C.brass}/>
     <Label p={[0,2.5,6]} width={250} className="desk-sign">أهلاً بكِ في معرض طالباتنا</Label>
     {/* Credits are on the LEFT SIDE WALL, away from all seven wing doors. */}
-    <CanvasSign p={[-19.49,3.75,4]} rotation={[0,Math.PI/2,0]} size={[7.4,3.3]} lines={LOBBY_CREDIT_LINES} frameColor='#3f625f' />
+    <CanvasSign p={[-19.49,3.75,4]} rotation={[0,Math.PI/2,0]} size={[7.4,3.3]} lines={LOBBY_CREDIT_LINES} frameColor='#3f625f' textureWidth={3072} />
     {wings.map(({c,i,p,rotation})=><Portal key={c.id} p={p} rotation={rotation} title={c.label} color={i%2===0?'#536b6c':'#715c5d'} onClick={()=>go({type:'wing',classId:c.id})}/>)}
     <Sculpture p={[-14.5,0,7]}/><Sculpture p={[14.5,0,10]} style="stone"/>
     <Plant p={[-17,0,-9]}/><Plant p={[17,0,-9]}/>
@@ -391,7 +422,7 @@ function Room({classId,section,artworks,onArt,artPage=0}) {
   const currentPage=arts.slice(artPage*ROOM_ARTWORK_CAPACITY,(artPage+1)*ROOM_ARTWORK_CAPACITY)
   const isCeramics=section==='ceramics'
   return <group>
-    <GalleryShell w={34} d={28} heading={`قاعة ${s.label}`} sub={`${c.label} | ${s.english}`} finishedCeiling/>
+    <GalleryShell w={34} d={28} heading={`قاعة ${s.label}`} sub={`${c.label} | ${s.english}`} finishedCeiling roomNameplate/>
     <Box p={[0,.115,1.2]} s={[6.3,.10,23.5]} color="#e9dbca"/>
     <Box p={[0,.176,1.2]} s={[.075,.015,23.5]} color={C.brass}/>
     <ExhibitionPartitions isCeramics={isCeramics}/>
