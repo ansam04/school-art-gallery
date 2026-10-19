@@ -3,8 +3,8 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Html, OrbitControls } from '@react-three/drei'
 import * as THREE from 'three'
 import { SCHOOL, classes, sections, ROOM_ARTWORK_CAPACITY } from './data'
-import schoolLogo from './assets/school-logo.png'
-import moeLogo from './assets/moe-logo.png'
+import schoolLogo from './assets/school-logo.webp'
+import moeLogo from './assets/moe-logo.webp'
 
 const C = {
   sandstone: '#e7dccd', ivory: '#f9f2e8', cream: '#eee6dc',
