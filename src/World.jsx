@@ -451,7 +451,7 @@ function Room({classId,section,artworks,onArt,artPage=0}) {
   </group>
 }
 function CameraNavigator({location}) {
-  const { camera }=useThree()
+const { camera, invalidate }=useThree()
   const orbit=useRef()
   const held=useRef(new Set())
   const limits=location.type==='outside'?{x:24,z:17}:location.type==='lobby'?{x:17,z:13}:location.type==='wing'?{x:14,z:10}:{x:15.2,z:19}
@@ -467,6 +467,7 @@ function CameraNavigator({location}) {
       if(e.target instanceof HTMLElement && /input|textarea|select/i.test(e.target.tagName)) return
       if(['KeyW','KeyA','KeyS','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code)) {
         held.current.add(e.code)
+        invalidate()
         if(e.code.startsWith('Arrow'))e.preventDefault()
       }
     }
@@ -488,6 +489,7 @@ function CameraNavigator({location}) {
       camera.position.add(applied)
       target.add(applied)
       orbit.current.update()
+      invalidate()
     }
     // Exported as one discrete movement event for touch controls.
     window.addEventListener('keydown',keyDown)
@@ -500,7 +502,11 @@ function CameraNavigator({location}) {
       if(!keys.size)return
       const f=(keys.has('KeyW')||keys.has('ArrowUp')?1:0)-(keys.has('KeyS')||keys.has('ArrowDown')?1:0)
       const side=(keys.has('KeyD')||keys.has('ArrowRight')?1:0)-(keys.has('KeyA')||keys.has('ArrowLeft')?1:0)
-      if(f||side)travel(f*.105,side*.105)
+
+if(f||side){
+  travel(f*.105,side*.105)
+  invalidate()
+}
     }
     mover.current=frameMover
     return ()=>{
@@ -517,7 +523,7 @@ function CameraNavigator({location}) {
 }
 export default function World({location,go,artworks,onArt,artPage=0}) {
   const sceneKey=[location.type,location.classId||'',location.section||''].join('-')
-  return <Canvas shadows dpr={[1,1.5]} camera={{position:[0,6.7,23],fov:51}} gl={{antialias:true,powerPreference:'high-performance'}}>
+  return <Canvas frameloop="demand" shadows dpr={[1,1.5]} camera={{position:[0,6.7,23],fov:51}} gl={{antialias:true,powerPreference:'high-performance'}}>
     <color attach="background" args={['#b2bdba']}/>
     <fog attach="fog" args={['#b2bdba',34,88]}/>
     <LightSetup/>
