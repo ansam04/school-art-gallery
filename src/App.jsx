@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react'
 import { ArrowLeft, ArrowRight, Brush, Building2, ChevronLeft, ChevronRight, Eye, House, ImagePlus, Info, Layers, LogIn, LogOut, Menu, Move, Paintbrush, Search, Settings2, Shield, Trash2, UploadCloud, X } from 'lucide-react'
-import World from './World'
 import {SCHOOL,classes,sections,rooms,ROOM_ARTWORK_CAPACITY} from './data'
 import {configured,supabase} from './supabase'
 import {listArtworks,saveArtwork,deleteArtwork} from './gallery'
+
+const World = lazy(() => import('./World'))
 
 const emptyForm={student_name:'',class_id:1,section:'drawing',image:null}
 function locLabel(location){
@@ -128,7 +129,9 @@ function App(){
       </aside>
       <main className="main-area">
         <div className="viewport">
-          <World location={location} go={go} artworks={artworks} onArt={setActiveArt} artPage={artOffset}/>
+          <Suspense fallback={<div>جاري تحميل المعرض...</div>}>
+            <World location={location} go={go} artworks={artworks} onArt={setActiveArt} artPage={artOffset}/>
+          </Suspense>
           <div className="scene-top">
             <div className="scene-breadcrumb"><span>المعرض</span><ChevronLeft size={13}/><strong>{title}</strong></div>
             <div className="scene-chip"><Eye size={14}/> عرض تفاعلي 3D</div>
